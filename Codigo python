@@ -1,0 +1,20 @@
+v = int(input("Insira o valor desejado: "))
+if v >= 200:
+    n200 = v // 200
+    v = v % 200
+    n100 = v // 100
+    v = v % 100
+    n50  = v // 50
+    v = v % 50
+    n20  = v // 20
+    v = v % 20
+    n10 = v // 10
+    v = v % 10
+    n5 = v // 5
+    v = v % 5
+    n2 = v // 2
+    v = v % 2
+    n1 = v // 1
+    v = v % 1
+
+print("A quantidade de notas de 200 é: ",n200, "de 100 é: ",n100, "de 50 é: ",n50, "de 20 é: ",n20, "de 10 é: ",n10, "de 5 é: ",n5, "de 2 é: ",n2, "de 1 é: ",n1)
