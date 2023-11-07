@@ -15,7 +15,7 @@ def completo (cor):
     elif cor == 'roxo':
         return 'vc e top'
     else:
-        return 'vsf ein'
+        return 'tente outra cor'
     
 def medio (cor):
     if cor == 'azul':
